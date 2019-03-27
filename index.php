@@ -21,7 +21,7 @@
 		<?php
 		if(isset($_POST['sub'])){
 			require('textlocal.class.php'); // this is the wrapper class provided by text local which is used to interface with the Textlocal API2 to send messages and many more. 
-			$textlocal = new Textlocal(false, false, 'i64I7l3/7oE-jPmiS3lNa5Oh9WgYaogcMNjYGMmiCW'); //this is api key which is given by textlocal.
+			$textlocal = new Textlocal(false, false, 'API_KEY'); //this is api key which is given by textlocal.
 
 			$numbers = array($_POST['mno']);
 			$sender = 'TXTLCL';
