@@ -13,4 +13,4 @@ Basically, this can authenticate user by sending otp and verify it.
 - I use cookie to store otp you can use your own database to store the otp.
 
 thats it. go through this code.
-                                    ----------------¯\_(ツ)_/¯--------------------                       
+                                    -----------------¯\_(ツ)_/¯--------------------                       
